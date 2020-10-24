@@ -1,0 +1,33 @@
+{
+  "name": "check-domain-availability",
+  "version": "1.0.0",
+  "description": "Checks the availability of the domain name and returns with some useful information",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "check-domain-availability",
+    "domain",
+    "names",
+    "domain",
+    "url",
+    "whois",
+    "lookup",
+    "is",
+    "available"
+  ],
+  "author": "Arunkumar Srisailapathi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "js-dynamic-constants": "^1.1.2",
+    "whois": "^2.13.3"
+  }
+}
